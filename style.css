@@ -441,3 +441,136 @@ video {
   color: #ffffff;
   margin: unset;
 }
+.Testimonial {
+  justify-content: center;
+  width: 1089px;
+  height: 294px;
+  margin-top: 100px;
+  margin-left: 256px;
+  margin-right: 255px;
+  margin-bottom: 109px;
+  display: flex;
+  gap: 57px;
+}
+.Testi1 {
+  width: 324px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.Testi2 {
+  width: 324px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.Testi3 {
+  width: 324px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.Testi1 .Testimonial-Description {
+  width: 324px;
+  max-height: 102px;
+  margin: unset;
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: -0.5px;
+  text-align: center;
+  color: #161c2d;
+}
+.Testi2 .Testimonial-Description {
+  width: 324px;
+  max-height: 102px;
+  margin: unset;
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: -0.5px;
+  text-align: center;
+  color: #161c2d;
+}
+.Testi3 .Testimonial-Description {
+  width: 324px;
+  max-height: 102px;
+  margin: unset;
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: -0.5px;
+  text-align: center;
+  color: #161c2d;
+}
+.Job-Title {
+  white-space: nowrap;
+  margin: unset;
+  display: flex;
+  align-items: center;
+  font-family: Gilroy;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: -0.1px;
+  color: #161c2d;
+  opacity: 0.7;
+  overflow: hidden;
+}
+.Info1 {
+  width: 187.6px;
+  height: 51px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.Info1 img {
+  width: 65.3px;
+  height: 47px;
+}
+.Info-text1 {
+  display: flex;
+  flex-direction: column;
+}
+.Info2 {
+  width: 187.6px;
+  height: 51px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.Info2 img {
+  width: 65.3px;
+  height: 47px;
+}
+.Info3 {
+  width: 187.6px;
+  height: 51px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.Info3 img {
+  width: 65.3px;
+  height: 47px;
+}
+.Testimonial h2 {
+  margin: unset;
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 29px;
+  letter-spacing: -0.2px;
+  color: #161c2d;
+  width: 73px;
+  white-space: nowrap;
+}
