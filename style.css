@@ -213,11 +213,12 @@ span {
   color: #161c2d;
 }
 .Services {
-  max-width: 1109px;
+  width: 1109px;
   height: 447px;
   margin-top: 80px;
   margin-left: 246px;
   margin-right: 245px;
+  margin-bottom: 120px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -256,6 +257,7 @@ span {
   margin-top: 92px;
 }
 .service-card {
+  border: 1px solid #e7e9ed;
   width: 255px;
   height: 226px;
   border-radius: 10px;
@@ -270,5 +272,133 @@ span {
   line-height: 29px;
   letter-spacing: -0.2px;
   color: #161c2d;
-  margin-right: 70px;
+  display: flex;
+  align-items: center;
+}
+.arrow {
+  margin-left: 70px;
+  width: 15px;
+  height: 10px;
+}
+.Contents {
+  max-width: 1600px;
+  height: 849px;
+}
+.Contents .Title {
+  width: 769px;
+  max-height: 129px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 92px 416px 74px 415px;
+}
+.Title h1 {
+  width: 769px;
+  height: 48px;
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -1.2px;
+  text-align: center;
+  color: #161c2d;
+}
+.Title p {
+  width: 589px;
+  height: 64px;
+  font-family: Gilroy;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+  text-align: center;
+  color: #161c2d;
+}
+.BG-video {
+  padding-top: 74px;
+  padding-left: 244px;
+  padding-bottom: 135px;
+  display: flex;
+}
+video {
+  width: 541px;
+  height: 419px;
+  border-radius: 8px;
+  background-color: #161c2d;
+  box-shadow: 0px 31px 34px -20px #00000018;
+  object-fit: cover;
+}
+.play-btn {
+  position: absolute;
+  padding: 203px 264px 203px 264px;
+  z-index: 2;
+}
+.Oval-play-btn {
+  position: absolute;
+  padding: 164px 224px 164px 224px;
+  z-index: 1;
+}
+.Content-right {
+  width: 404px;
+  height: 360px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 95px;
+  gap: 30px;
+}
+.num {
+  width: 43px;
+  height: 43px;
+  margin: unset;
+  padding-top: 6px;
+}
+.num p {
+  position: absolute;
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 32px;
+  letter-spacing: -0.09px;
+  color: #473bf0;
+  z-index: 2;
+  margin: 6px 17px 5px 18px;
+}
+.num p img {
+  position: absolute;
+  z-index: 1;
+}
+.content-item h2 {
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 32px;
+  letter-spacing: -0.5px;
+  color: #161c2d;
+  margin: unset;
+}
+.content-text p {
+  margin: unset;
+  width: 339px;
+  height: 58px;
+  font-family: Gilroy;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 29px;
+  letter-spacing: -0.2px;
+  color: #161c2d;
+  opacity: 0.7;
+}
+.content-item {
+  display: flex;
+  gap: 22px;
+  width: 404px;
+}
+.content-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.Content-right{
+  padding-top: 30px;
 }
