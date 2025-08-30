@@ -399,6 +399,11 @@ video {
   flex-direction: column;
   gap: 10px;
 }
-.Content-right{
+.Content-right {
   padding-top: 30px;
+}
+.Contents {
+  width: 1600px;
+  height: 849px;
+  background-color: #f4f7fa;
 }
