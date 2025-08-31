@@ -772,3 +772,92 @@ video {
   margin-right: 25px;
   margin-bottom: 28px;
 }
+.CTA {
+  width: 1110px;
+  height: 88px;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  margin-top: 77px;
+  margin-right: 245px;
+  margin-left: 245px;
+  margin-bottom: 77px;
+}
+.CTA-Content {
+  width: 508px;
+  height: 88px;
+  margin: unset;
+}
+.CTA-Content > h1 {
+  opacity: 1;
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: -1.2px;
+  color: #161c2d;
+  margin: unset;
+  margin-right: 122px;
+}
+.enter-email {
+  margin: unset;
+  width: 290px;
+  height: 59px;
+  opacity: 1;
+  border-radius: 8px;
+  border-width: 1px;
+  background: #ffffff;
+  border: 1px solid #e7e9ed;
+  margin-right: 20px;
+}
+.enter-email input {
+  width: 107px;
+  height: 17px;
+  opacity: 0.7;
+  font-family: Gilroy;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: -0.18px;
+  color: #161c2d;
+  border: none;
+  padding-top: 20px;
+  padding-left: 19px;
+  padding-bottom: 22px;
+  padding-right: 164px;
+}
+.btn-cta {
+  width: 170px;
+  height: 59px;
+  opacity: 1;
+  border-radius: 8px;
+  background-color: #473bf0;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+.btn-cta > span {
+  width: 73px;
+  height: 32px;
+  opacity: 1;
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 32px;
+  letter-spacing: -0.6px;
+  color: #ffffff;
+  margin: unset;
+  padding-left: 21px;
+  padding-top: 13px;
+  padding-bottom: 14px;
+  margin-right: 43px;
+}
+.btn-cta > img {
+  width: 13.000000953674316px;
+  height: 11.266666412353516px;
+  border: 2px solid #ffffff;
+  opacity: 1;
+  border-width: 2px;
+  margin: unset;
+  border: none;
+}
