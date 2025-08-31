@@ -574,3 +574,201 @@ video {
   width: 73px;
   white-space: nowrap;
 }
+.CTAForm {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 1600px;
+  height: 745px;
+  background-color: #161c2d;
+  overflow: hidden;
+}
+.ContentCTA {
+  position: relative;
+  margin: unset;
+  width: 429px;
+  height: 343px;
+  padding-top: 201px;
+  padding-bottom: 201px;
+  padding-left: 245px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+.oval-form {
+  margin: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 87px;
+  height: 87px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  margin-bottom: 46px;
+}
+.CTA-Title {
+  margin: unset;
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -1.2px;
+  color: #ffffff;
+  margin-bottom: 18px;
+}
+.CTA-Description {
+  width: 412px;
+  margin: unset;
+  font-family: Gilroy;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+  color: #ffffff;
+}
+.Form-Image .img1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1600px;
+  height: 745px;
+  object-fit: cover;
+  z-index: 0;
+}
+.CTA-Form {
+  display: flex;
+  flex-direction: column;
+  margin: unset;
+  position: relative;
+  z-index: 2;
+  width: 350px;
+  height: 499px;
+  background: #ffffff;
+  border: 1px solid #e7e9ed;
+  box-shadow: 0px 34px 33px -23px #161c2d21;
+  border-radius: 10px;
+  margin-left: 331px;
+}
+
+.CTA-Form .name {
+  gap: 7px;
+  margin: unset;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  width: 300px;
+  height: 78px;
+  padding-top: 30px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+.CTA-Form .email,
+.CTA-Form .phone,
+.CTA-Form .select-service {
+  gap: 7px;
+  margin: unset;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  width: 300px;
+  height: 78px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.CTA-Form label {
+  width: 41;
+  height: 26;
+  opacity: 1;
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: -0.1px;
+  color: #161c2d;
+}
+.CTA-Form select {
+  margin: unset;
+  width: 262px;
+  height: 26px;
+  font-family: Gilroy;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: -0.1px;
+  color: #161c2d;
+  border: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url("img/Blackmuiten.svg") no-repeat right 12px center;
+  background-size: 10px 5px;
+}
+.select-arrow {
+  width: 193px;
+  height: 26px;
+  margin: unset;
+  opacity: 1;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 18px;
+}
+.CTA-Form input {
+  width: 262px;
+  height: 26px;
+  opacity: 0.7;
+  font-family: Gilroy;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: -0.1px;
+  color: #161c2d;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 18px;
+}
+
+.CTA-Form input::placeholder {
+  font-family: Gilroy;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: -0.1px;
+  width: 262;
+  height: 26;
+  top: 12px;
+  left: 18px;
+  opacity: 0.7;
+  color: #161c2d;
+}
+.oval-input {
+  width: 300px;
+  height: 50px;
+  opacity: 1;
+  border-radius: 8px;
+  border-width: 1px;
+  margin: unset;
+  border: 1px solid #e7e9ed;
+  background: #ffffff;
+}
+.btn-form {
+  width: 300px;
+  height: 59px;
+  opacity: 1;
+  border-radius: 8px;
+  background-color: #473bf0;
+  color: #ffffff;
+  border: none;
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 32px;
+  letter-spacing: -0.6px;
+  text-align: center;
+  margin: unset;
+  margin-top: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 28px;
+}
